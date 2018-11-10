@@ -1,0 +1,52 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "articles",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "author": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "default": "",
+      "type": "text",
+      "required": true
+    },
+    "url": {
+      "default": "",
+      "unique": true,
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "small-image": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "default": "",
+      "type": "string"
+    },
+    "short-description": {
+      "default": "",
+      "type": "text",
+      "required": true
+    },
+    "popularity": {
+      "default": "",
+      "type": "integer"
+    }
+  }
+}

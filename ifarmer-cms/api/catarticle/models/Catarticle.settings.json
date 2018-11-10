@@ -1,0 +1,48 @@
+{
+  "connection": "default",
+  "collectionName": "catarticle",
+  "info": {
+    "name": "catarticle",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "url": {
+      "default": "",
+      "unique": true,
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "default": "",
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "default": "",
+      "type": "text"
+    },
+    "test1": {
+      "default": "",
+      "type": "string"
+    },
+    "test2": {
+      "default": "",
+      "type": "string"
+    },
+    "test3": {
+      "default": "",
+      "type": "string"
+    },
+    "test4": {
+      "default": "",
+      "type": "string"
+    },
+    "test5": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}
